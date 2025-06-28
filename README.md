@@ -1,7 +1,5 @@
 # 🤖 Tweetledoo - Never Be Stumped for a Reply Again!
 
-[![Deploy on Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fflipbytes-dk%2Ftweet_responder)
-
 **Have you ever stared at a tweet, wanting to reply with something clever, but your mind goes blank?** Tweetledoo is here to help!
 
 This app uses AI to craft the perfect, witty, or professional response for you in seconds. Just paste a tweet, add your desired vibe, and let the magic happen.
@@ -36,11 +34,11 @@ This project is built with a modern, robust tech stack, perfect for a scalable w
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/) with [ShadCN UI](https://ui.shadcn.com/)
 - **Authentication**: [NextAuth.js](https://next-auth.js.org/)
 - **Database**: [PostgreSQL](https://www.postgresql.org/) with [Prisma ORM](https://www.prisma.io/)
-- **Deployment**: [Docker](https://www.docker.com/)
+- **Deployment**: [Docker](https://www.docker.com/) on [Hetzner](https://www.hetzner.com/)
 
 ## 💬 Feedback & Support
 
-This is a new project, and we'd love your feedback! If you have ideas, suggestions, or run into any issues, please [open an issue](https://github.com/flipbytes-dk/tweet_responder/issues) on GitHub.
+This is a new project, and we'd love your feedback! Please use the "Feedback & Support" link on the website with any ideas, suggestions, or issues.
 
 ---
 
