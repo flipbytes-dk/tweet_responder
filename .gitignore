@@ -48,3 +48,4 @@ tasks/*
 .env
 
 /lib/generated/prisma
+prisma/dev.db

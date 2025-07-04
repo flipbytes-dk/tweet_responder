@@ -36,8 +36,8 @@ export default function Home() {
         {session ? (
           <Card className="w-full max-w-xl shadow-lg">
             <CardHeader>
-              <CardTitle className="text-3xl sm:text-4xl font-bold">Unleash Your Inner Wordsmith</CardTitle>
-              <CardDescription className="pt-2">Let AI craft the perfect reply. You just hit send.</CardDescription>
+              <CardTitle className="text-3xl sm:text-4xl font-bold">Enhance Your Twitter Conversations</CardTitle>
+              <CardDescription className="pt-2">Get AI-powered suggestions to craft thoughtful replies that reflect your voice.</CardDescription>
             </CardHeader>
             <CardContent>
               <ReplyForm />
@@ -47,10 +47,10 @@ export default function Home() {
           <div className="w-full max-w-3xl">
             <Image src="/logo.png" alt="Tweetledoo Logo" width={150} height={150} className="mx-auto mb-8" />
             <h1 className="text-4xl sm:text-6xl font-bold mb-4">
-              Never Be Stumped for a Reply Again
+              Amplify Your Voice on Twitter
             </h1>
             <p className="text-lg text-gray-600 mb-8 sm:mb-12">
-              Welcome to Tweetledoo! Paste a tweet, add your vibe, and let our AI craft the perfect, witty response for you in seconds.
+              Welcome to Tweetledoo! Get AI-powered suggestions to enhance your replies. Add your perspective, refine the tone, and respond with confidence.
             </p>
             <div className="mb-12">
               <Button onClick={() => signIn("google")} size="lg" className="text-lg px-8 py-6">
@@ -59,16 +59,16 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 text-left">
               <div className="p-4 rounded-lg">
-                <h3 className="font-bold text-xl mb-2">⚡️ Instant Witty Replies</h3>
-                <p className="text-gray-600">Go from a tweet to a brilliant comeback in one click.</p>
+                <h3 className="font-bold text-xl mb-2">⚡️ Smart Reply Suggestions</h3>
+                <p className="text-gray-600">Get AI-powered suggestions to inspire your responses and overcome writer's block.</p>
               </div>
               <div className="p-4 rounded-lg">
-                <h3 className="font-bold text-xl mb-2">🎭 Match Your Vibe</h3>
-                <p className="text-gray-600">Tell the AI to be funny, professional, sarcastic, or anything in between.</p>
+                <h3 className="font-bold text-xl mb-2">🎭 Match Your Style</h3>
+                <p className="text-gray-600">Customize suggestions to match your tone—funny, professional, thoughtful, or anything in between.</p>
               </div>
               <div className="p-4 rounded-lg">
-                <h3 className="font-bold text-xl mb-2">🚀 Boost Your Engagement</h3>
-                <p className="text-gray-600">Craft perfect replies that get noticed and start conversations.</p>
+                <h3 className="font-bold text-xl mb-2">🚀 Enhance Your Voice</h3>
+                <p className="text-gray-600">Use suggestions as a starting point to craft authentic replies that represent you.</p>
               </div>
             </div>
           </div>
